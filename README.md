@@ -1,4 +1,4 @@
-# Consilio® — Dynamic Executive Consulting & Zebra CMS
+# Consilio® — Dynamic Executive Consulting & Zebra
 
 A fully customized, high-performance website and content management platform built with **Next.js 15 (App Router)**, **React 19**, **TypeScript**, and an editorial luxury **Zebra / Monochrome design system**.
 
