@@ -642,13 +642,13 @@ export default function AdminDashboardPage() {
             FAQs ({faqs.length})
           </button>
 
-          <button
+          {/* <button
             onClick={() => setActiveTab('security')}
             className={`admin-nav-item ${activeTab === 'security' ? 'active' : ''}`}
           >
             <KeyRound size={18} />
             Admin Security
-          </button>
+          </button> */}
         </nav>
 
         {/* Bottom actions */}
@@ -819,14 +819,14 @@ export default function AdminDashboardPage() {
                                   lead.status === 'new'
                                     ? 'rgba(20, 243, 193, 0.15)'
                                     : lead.status === 'in_progress'
-                                    ? 'rgba(245, 158, 11, 0.15)'
-                                    : 'rgba(255, 255, 255, 0.08)',
+                                      ? 'rgba(245, 158, 11, 0.15)'
+                                      : 'rgba(255, 255, 255, 0.08)',
                                 color:
                                   lead.status === 'new'
                                     ? 'var(--accent-teal)'
                                     : lead.status === 'in_progress'
-                                    ? '#f59e0b'
-                                    : 'var(--text-secondary)',
+                                      ? '#f59e0b'
+                                      : 'var(--text-secondary)',
                               }}
                             >
                               {lead.status.replace('_', ' ')}
